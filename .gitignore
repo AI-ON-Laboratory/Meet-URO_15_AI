@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ----------------------------------------------------------------------
+
+# Ignore everything
+/*
+
+# Do not ignore these files at the root
+!.gitignore
+!README.md
+
+# Include .py and .ipynb files in specific folders
+!1_Data_preparation.ipynb
+
+!survival_analysis/
+survival_analysis/*.py
+survival_analysis/*.ipynb
+
+!classification/
+classification/*.py
+classification/*.ipynb
