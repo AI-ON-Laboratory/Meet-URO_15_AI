@@ -6,12 +6,56 @@
 !README.md
 
 # Include .py and .ipynb files in specific folders
+
+# DATA PREPARATION
 !1_Data_preparation.ipynb
 
+# SURVIVAL ANALYSIS 
 !survival_analysis/
-survival_analysis/*.py
-survival_analysis/*.ipynb
+survival_analysis/*
 
+!survival_analysis/OS/
+survival_analysis/OS/*
+!survival_analysis/OS/*.py
+!survival_analysis/OS/*.ipynb
+
+!survival_analysis/PFS/
+survival_analysis/PFS/*
+!survival_analysis/PFS/*.py
+!survival_analysis/PFS/*.ipynb
+
+# CLASSIFICATION
 !classification/
+classification/*
 classification/*.py
 classification/*.ipynb
+
+!classification/DCR/
+classification/DCR/*
+!classification/DCR/*.py
+!classification/DCR/*.ipynb
+
+!classification/OS-6/
+classification/OS-6/*
+!classification/OS-6/*.py
+!classification/OS-6/*.ipynb
+
+!classification/OS-18/
+classification/OS-18/*
+!classification/OS-18/*.py
+!classification/OS-18/*.ipynb
+
+!classification/OS-24/
+classification/OS-24/*
+!classification/OS-24/*.py
+!classification/OS-24/*.ipynb
+
+!classification/PFS-3/
+classification/PFS-3/*
+!classification/PFS-3/*.py
+!classification/PFS-3/*.ipynb
+
+!classification/PFS-9/
+classification/PFS-9/*
+!classification/PFS-9/*.py
+!classification/PFS-9/*.ipynb
